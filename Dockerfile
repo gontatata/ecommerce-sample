@@ -1,4 +1,4 @@
-FROM ruby:3.1.2-slim-bullseye AS assets
+FROM ruby:3.1.2
 LABEL maintainer="Nick Janetakis <nick.janetakis@gmail.com>"
 
 WORKDIR /app
