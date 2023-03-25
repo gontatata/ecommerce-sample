@@ -1,7 +1,0 @@
-{
-    "functions": {
-      "api/**/*.rb": {
-        "runtime": "https://github.com/vercel-community/ruby/tree/main/packages/runtime"
-      }
-    }
-  }
