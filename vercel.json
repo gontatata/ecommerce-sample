@@ -1,0 +1,13 @@
+{
+    "functions": {
+      "api/**/*": {
+        "runtime": "https://github.com/vercel-community/ruby/tree/main/packages/runtime"
+      }
+    },
+    "builds": [
+      {
+        "src": "Dockerfile",
+        "use": "@vercel/docker"
+      }
+    ]
+  }
